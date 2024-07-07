@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    /* border: 1px solid red; */
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: 'goodtitulo';
+    src: url(/font/Staatliches-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin: 0 15%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-icons a {
+    margin-left: 15px;
+}
+
+.hero {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: relative;  /* ===== */
+    padding: 55px;
+    background-color: #f9f5e6;
+}
+.port--1{
+    position: absolute;
+    width: 320px;
+    top: 190px;
+    left: 0;
+    /* bottom: 360px;
+    left: 0; */
+}
+.port--2{
+    position: absolute;
+    width: 650px;
+    right: 0;
+    top: 198px;
+    /* right: 0;
+    bottom: 406px; */
+}
+
+.hero-text {
+    max-width: 500px;
+    margin: 0 0 0 13%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 0 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 20px;
+    color: #ff7043;
+    border: 1px solid #ff7043;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.hero-image img {
+    margin-left: 20px;
+    width: 427px;
+    height: 315px;
+}
+
+.services {
+    text-align: center;
+    padding: 60px;
+}
+.context--services{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 13%;
+}
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+
+.service {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.service h4 {
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 1em;
+    color: #666;
+}
+/* ======================= */
+
+.anuncion__main{
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E2EEDD;
+}
+.img--anuncio{
+    position: absolute;
+    width: 292px;
+    left: 200px;
+}
+.text--anuncio{
+    /* font-weight: bold */
+    font-size: 20px;
+}
+
+/* ================= */
+
+.secciones{
+    display: flex;
+    margin: 40px 15%;
+}
+.cuadro{
+    margin-left: 5px;
+    width: 25%;
+    position: relative;
+    padding: 10px;
+    height: 206px;
+    background-color: #64646418;
+}
+.cuadro--tercero{
+    width: 50%;
+}
+.cuadro h1{
+    margin: 65px 0 20px 0px;
+}
+.btn--tamaño{
+    padding: 4px 10px;
+    font-size: 14px;
+}
+.cuadro__img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+.cuadro__img2{
+    position: absolute;
+    top: 0;
+    right: -14.5px;
+    width: 165px;
+}
+.cuadro__img3{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 351.4px;
+}
+/* =========== */
+.tittle--populares{
+    text-align: center;
+}
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+.ctg{
+    margin: 0 20px;
+}
+.circulo{
+    background-color: #64646418;
+    width: 157px;
+    height: 142px;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.103);
+}
+.img--circulo{
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    right: 28px;
+}
+.img--circulo__tamaño{
+    width: 130px;
+    right: 13px;
+}
+.img--circulo__tamaño2{
+    width: 140px;
+    top: 1px;
+    right: 8px;
+}
+.ctg p{
+    margin-top: 15px;
+    text-align: center;
+}
+/* ====================== */
+
+.productos_recomendados{
+    display: flex;
+    width:70%;
+    margin: 30px auto;
+    justify-content: space-between;
+    
+}
+.proMain{
+    width: 15%;
+}
+.proMain a{
+    text-decoration: none;
+}
+.text__proMain{
+    text-align: center;
+    color: black;
+}
+.precio{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: red;
+}
+.img__recomendado{
+    width: 128px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+/* ======================= */
+.oferta{
+    width: 100%;
+    height: 74px;
+    background-color: #FFB06B;
+    position: relative;
+    margin-top: 170px;
+}
+.img__oferta{
+    position: absolute;
+    width: 170px;
+    left: 860px;
+    top: -149px;
+}
+.oferta--txt{
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+.oferta--txt h1{
+    color: white;
+    font-size: 2.3rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'goodtitulo';
+}
+.btn--oferta{
+    border: 1px solid white;
+    padding: 10px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+}
+.btn--oferta:hover{
+    background-color: white;
+    color: #FFB06B;
+    transition: 0.4s ;
+}
+
+/* ======================= */
+
+.title--marca{
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0 20px;
+}
+.marcas{
+    width: 997px;
+    margin: 0 auto;
+}
+.img--marcas{
+    width: 997px;
+    display: block;
+}
+/* ================= */
+.patas{
+    margin-top: 100px;
+    background-color: #F5EEC4;
+    height: 365px;
+    /* padding: 0 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor--img{
+    width: 678px;
+    position: relative;
+}
+.img--tamaño{
+    width: 678px;
+    bottom: -180px;
+    position: absolute;
+}
+.txt--patas{
+    width: 640px;
+}
+.titulo--patas{
+    margin-bottom: 20px;
+}
+.p--patas{
+    margin-bottom: 20px;
+}
+.correo--input{
+    display: block;
+    width: 93%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 26px;
+}
+.btn--patas{
+    text-decoration: none;
+    border: 1.3px solid #DA775F;
+    color: #DA775F;
+    padding: 8px 70px;
+    border-radius: 40px;
+}

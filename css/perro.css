@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/font/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: 'goodtitulo';
+    src: url(/font/Staatliches-Regular.ttf);
+}
+
+/* ==============Cabeza========== */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    margin: 0 15%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header-icons a {
+    margin-left: 15px;
+}
+/* =====Patas================ */
+.patas{
+    margin-top: 100px;
+    background-color: #F5EEC4;
+    height: 365px;
+    /* padding: 0 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor--img{
+    width: 678px;
+    position: relative;
+}
+.img--tamaño{
+    width: 678px;
+    bottom: -180px;
+    position: absolute;
+}
+.txt--patas{
+    width: 640px;
+}
+.titulo--patas{
+    margin-bottom: 20px;
+}
+.p--patas{
+    margin-bottom: 20px;
+}
+.correo--input{
+    display: block;
+    width: 93%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 26px;
+}
+.btn--patas{
+    text-decoration: none;
+    border: 1.3px solid #DA775F;
+    color: #DA775F;
+    padding: 8px 70px;
+    border-radius: 40px;
+}
+/* ===================== */
+.hero{
+    background-color: #E2EEDD;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img--hero{
+    width: 323px;
+    margin-bottom: 14px;
+    margin-right: 650px;
+}
+
+.hero--texto h1{
+    font-family: 'goodtitulo';
+    font-weight: 500;
+    font-size: 8rem;
+    color: #060644;
+}
+/* =============== */
+.categorias{
+    display: flex;
+    margin: 20px 0 0 0;
+    justify-content: center;
+}
+.txt-categorias{
+    text-align: center;
+}
+.alimentos{
+    margin-right: 50px;
+    width: 108px;
+    text-align: center;
+}
+.img--categorias{
+    width: 108px;
+}
+/* ===================== */
+.lomejor{
+    margin: 40px 0;
+}
+.lomejor h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+.linea{
+    width: 70%;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+.lomejor--productos{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.contenedor--mejor{
+    width: 170px;
+    text-align: center;
+}
+.img--lomejor{
+    width: 128px;
+    margin-bottom: 5px;
+}
+.vinculo--lomejor{
+    text-decoration: none;
+}
+.title--lomejor{
+    color: black;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.precio--lomejor{
+    font-size: 0.9rem;
+    color: red;
+}
+.btn--lomejor{
+    border: 1px solid #DA775F;
+    text-decoration: none;
+    color: #DA775F;
+    width: 95px;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetPaws</title>
+    <link rel="stylesheet" href="css/citas.css">
+    <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="perro.html">Perros</a></li>
+                <li><a href="gato.html">Gatos</a></li>
+                <li><a href="citas.html">Citas en línea</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="#"><img src="/img/user.png" alt="User" width="20"></a>
+            <a href="#"><img src="/img/car.png" alt="Cart" width="20"></a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero--texto">
+                <h1>CITAS EN LÍNEA</h1>
+            </div>
+            <img src="img/hero2.png" alt="" class="img--hero">
+        </section>
+        <div class="container">
+            <div class="form-container">
+                <div class="image-section">
+                    <img src="img/doc.png" alt="Perro con estetoscopio">
+                </div>
+                <div class="form-section">
+                    <h2>Antes de comenzar, ten lista la información básica de tu mascota y el motivo de la consulta. ¡Gracias por elegirnos!</h2>
+                    <form>
+                        <div class="form-group form--tamaño">
+                            <label for="name">Nombre completo:</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="dni">DNI:</label>
+                            <input type="text" id="dni" name="dni">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="phone">Nro de celular:</label>
+                            <input type="text" id="phone" name="phone">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="pet-name">Nombre:</label>
+                            <input type="text" id="pet-name" name="pet-name">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="pet-dni">Tipo de mascotas:</label>
+                            <input type="text" id="pet-dni" name="pet-dni">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="weight">Peso:</label>
+                            <input type="text" id="weight" name="weight">
+                        </div>
+                        <div class="form-group form--tamaño">
+                            <label for="availability">Horarios disponibles:</label>
+                            <select id="availability" name="availability">
+                                <option value="morning">Mañana</option>
+                                <option value="afternoon">Tarde</option>
+                                <option value="evening">Noche</option>
+                            </select>
+                        </div>
+                        <div class="form-group text--area">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div class="enviar--btn">
+                            <button type="submit ">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="patas">
+            <div class="contenedor--img">
+                <img src="img/patas.png" alt="" class="img--tamaño">
+            </div>
+            <div class="txt--patas">
+                <h1 class="titulo--patas">¿Quieres recibir ofertas en tu email?</h1>
+                <p class="p--patas">Únete a nuestra newsletter y recibirás toda la información sobre nuestros productos, promociones y campañas. Sé el primero en enterarte de todo…</p>
+                <input type="text" placeholder="Correo" class="correo--input">
+                <a href="#" class="btn--patas">¡Únete!</a>
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
